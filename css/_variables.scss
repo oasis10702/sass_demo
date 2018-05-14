@@ -1,0 +1,10 @@
+// Variable
+$component-padding: 16px 16px;
+$border-style: 1px solid black;
+// List
+$ig-style: #4c68d7,#8a3ab9,#bc2a8d,#cd486b,#e95950,#fbad50,#fccc63;
+// Map
+$ig-style-degree: (
+  direction: 120deg,
+  color: $ig-style
+);

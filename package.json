@@ -1,0 +1,18 @@
+{
+  "name": "scss_demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
+    "node-sass": "^4.9.0",
+    "sass-lint": "^1.12.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hiro_ho",
+  "license": "ISC",
+  "description": ""
+}
