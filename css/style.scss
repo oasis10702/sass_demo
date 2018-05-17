@@ -1,8 +1,8 @@
-// plugin
 @import 'reset';
-@import 'variables';
+@import './abstracts/mixins';
+@import './abstracts/variables';
 @import 'components';
-@import 'mixins';
+
 
 body {
   position: relative;  
@@ -22,6 +22,11 @@ body {
 // default block
 .block-group {
   margin: 100px 0;
+  width: 300px;
+  height: 300px;
+  border: 1px solid;
+  display: flex;
+  flex-wrap: wrap;
 }
 .block {
   @include square;
@@ -30,21 +35,15 @@ body {
   border: 1px solid #000;
 }
 
-// .block-radius {
-//   @include border-radius(50%);
-// }
-// // for loop
-// @for $i from 1 to 11 {
-//   .border-#{$i} {
-//     border: #{$i}px solid #000;
-//   }
-// }
+// for loop
+@for $i from 1 to 11 {
+  .border-#{$i} {
+    border: #{$i}px solid #000;
+  }
+}
 
-// // SASS provide a lot of functions
-// .color {
-//   background: complement($color:#123456);
-// }
+// SASS provide a lot of functions
+.color {
+  background: complement($color:#123456);
+}
 
-// h1 {
-//   @include text3d(black);
-// }

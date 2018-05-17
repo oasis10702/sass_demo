@@ -1,6 +1,6 @@
-@import 'colors';
-@import 'variables';
-@import 'mixins';
+@import './abstracts/colors';
+@import './abstracts/variables';
+@import './abstracts/mixins';
 
 .container {
     margin: 0 auto;
